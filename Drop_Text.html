@@ -49,6 +49,7 @@
     <input type="text" id="txt" placeholder="Enter the Name " autofocus>
     <input type="button" onclick="ShowText()" value="Drop"><br>
     
+    
     <div id="parent"></div>
     <script>
       
@@ -87,7 +88,7 @@
         //console.log(t.top);
         obj.style.top=t;
         t=t+7;
-        if(t<=600)
+        if(t<=600) 
         window.setTimeout("Drop(0)",1);
         else 
         i=0,GayabMe(obj);
